@@ -17,6 +17,10 @@
 		5287E2C827DBEBF500249E50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E29E27DBEBF400249E50 /* ContentView.swift */; };
 		5287E2C927DBEBF500249E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5287E29F27DBEBF500249E50 /* Assets.xcassets */; };
 		5287E2CA27DBEBF500249E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5287E29F27DBEBF500249E50 /* Assets.xcassets */; };
+		5287E2DB27DBECC600249E50 /* NSCharacterSet+characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E2DA27DBECC600249E50 /* NSCharacterSet+characters.swift */; };
+		5287E2DC27DBECCC00249E50 /* NSCharacterSet+characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E2DA27DBECC600249E50 /* NSCharacterSet+characters.swift */; };
+		5287E2DE27DBED0000249E50 /* UIFont+characterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E2DD27DBED0000249E50 /* UIFont+characterSet.swift */; };
+		5287E2DF27DBED0000249E50 /* UIFont+characterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E2DD27DBED0000249E50 /* UIFont+characterSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		5287E2BD27DBEBF500249E50 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5287E2C127DBEBF500249E50 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5287E2C327DBEBF500249E50 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		5287E2DA27DBECC600249E50 /* NSCharacterSet+characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCharacterSet+characters.swift"; sourceTree = "<group>"; };
+		5287E2DD27DBED0000249E50 /* UIFont+characterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+characterSet.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5287E29D27DBEBF400249E50 /* CharlyApp.swift */,
+				5287E2D927DBECAC00249E50 /* Extensions */,
 				5287E29E27DBEBF400249E50 /* ContentView.swift */,
 				5287E29F27DBEBF500249E50 /* Assets.xcassets */,
 			);
@@ -139,6 +146,15 @@
 				5287E2C327DBEBF500249E50 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		5287E2D927DBECAC00249E50 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5287E2DA27DBECC600249E50 /* NSCharacterSet+characters.swift */,
+				5287E2DD27DBED0000249E50 /* UIFont+characterSet.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5287E2C727DBEBF500249E50 /* ContentView.swift in Sources */,
+				5287E2DE27DBED0000249E50 /* UIFont+characterSet.swift in Sources */,
 				5287E2C527DBEBF500249E50 /* CharlyApp.swift in Sources */,
+				5287E2DB27DBECC600249E50 /* NSCharacterSet+characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +327,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5287E2C827DBEBF500249E50 /* ContentView.swift in Sources */,
+				5287E2DF27DBED0000249E50 /* UIFont+characterSet.swift in Sources */,
 				5287E2C627DBEBF500249E50 /* CharlyApp.swift in Sources */,
+				5287E2DC27DBECCC00249E50 /* NSCharacterSet+characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
